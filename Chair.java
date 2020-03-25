@@ -63,9 +63,9 @@ public class Chair extends JFrame {
         Chair frame = new Chair();
         frame.setTitle("Froggy Chair");
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        frame.setSize(690,730);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
+	frame.pack();
         frame.setVisible(true);
     }
 }
